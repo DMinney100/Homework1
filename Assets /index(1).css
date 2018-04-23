@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+   }
+   
+   /*Heading with Navbar*/
+
+   h1 {
+    float: left;
+    background-color: rgb(40, 173, 156)
+   }
+   
+   ul {
+    float: right
+   }
+   
+   li {
+    display: inline;
+   }
+   
+   div {
+    background-color: white;
+    padding: 50px;
+   }
+   .clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+   
+   .about-me {
+    background-color: white;
+    width: 1024px;
+    margin: 20px auto;
+   }
+   
+   p {
+    text-align: justify;
+   }
+  
+   #abt-image {
+    float: left;
+    }
